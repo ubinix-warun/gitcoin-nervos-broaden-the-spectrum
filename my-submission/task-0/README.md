@@ -2,14 +2,14 @@
 
 # Notes
 
+
 ```
+apt install p7full p7rar
+
 ./ckb init --chain testnet
+curl -sSf https://raw.githubusercontent.com/Kuzirashi/gw-gitcoin-instruction/master/scripts/install_ckb_node_snapshot_data.sh | sh
+
 ./ckb run
-
-cd data
-rm * -Rf
-
-7z e ../20210804-nervos-ckb-node-0.43.1-testnet-snapshot.7z
 
 
 ```
