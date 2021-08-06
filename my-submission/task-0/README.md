@@ -1,11 +1,16 @@
 
 
-# Notes
+# Gitcoin: 0) Setup A Local CKB Node And CKB Indexer For The Testnet
 
-
+## Prerequired
 ```
 apt install p7full p7rar
 
+```
+
+## Run CKB Node
+
+```
 ./ckb init --chain testnet
 curl -sSf https://raw.githubusercontent.com/Kuzirashi/gw-gitcoin-instruction/master/scripts/install_ckb_node_snapshot_data.sh | sh
 
@@ -14,7 +19,23 @@ curl -sSf https://raw.githubusercontent.com/Kuzirashi/gw-gitcoin-instruction/mas
 
 ```
 
-### FAQ
+![CKB-NODE](https://raw.githubusercontent.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/master/my-submission/task-0/Workspace%202_209.png)
+
+
+## Run CKB Indexer
+
+```
+curl -sSf https://raw.githubusercontent.com/Kuzirashi/gw-gitcoin-instruction/master/scripts/install_ckb_indexer_snapshot_data.sh | sh
+RUST_LOG=info ./ckb-indexer -s ./indexer-data
+
+```
+
+![CKB-IDX](https://raw.githubusercontent.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/master/my-submission/task-0/Workspace%202_210.png)
+
+
+## FAQ
+
+### Forgot to use '--chain testnet' param.
 
 ```
 
