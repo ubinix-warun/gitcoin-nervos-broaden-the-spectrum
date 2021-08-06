@@ -2,11 +2,6 @@
 
 # Gitcoin: 0) Setup A Local CKB Node And CKB Indexer For The Testnet
 
-## Prerequired
-```
-apt install p7full p7rar
-
-```
 
 ## Run CKB Node
 
@@ -34,6 +29,13 @@ RUST_LOG=info ./ckb-indexer -s ./indexer-data
 
 
 ## FAQ
+
+### Require 7z cmd for use snapshot!
+
+```
+apt install p7zip-full p7zip-rar
+
+```
 
 ### Forgot to use '--chain testnet' param.
 
