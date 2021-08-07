@@ -3,7 +3,7 @@
 # Gitcoin: 0) Setup A Local CKB Node And CKB Indexer For The Testnet
 
 
-## 1. Run CKB Node
+## 1. Setup a local CKB Node, configure it for the Testnet, and allow it to fully synchronize with the network.
 
 ```
 ./ckb init --chain testnet
@@ -17,7 +17,7 @@ curl -sSf https://raw.githubusercontent.com/Kuzirashi/gw-gitcoin-instruction/mas
 ![CKB-NODE](https://raw.githubusercontent.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/master/my-submission/task-0/Workspace%202_209.png)
 
 
-## 2. Run CKB Indexer
+## 2. Setup a local CKB Indexer, and allow it to fully synchronize with the local CKB Node.
 
 ```
 curl -sSf https://raw.githubusercontent.com/Kuzirashi/gw-gitcoin-instruction/master/scripts/install_ckb_indexer_snapshot_data.sh | sh

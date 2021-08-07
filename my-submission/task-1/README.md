@@ -5,21 +5,21 @@
 
 ## 1. A screenshot of the accounts you created (account list) in ckb-cli.
 
+![CKB-LS](https://raw.githubusercontent.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/master/my-submission/task-1/Workspace%202_211.png)
 
 
 ## 2. Create and Fund an Account with CKBytes on Layer 1
 
-https://explorer.nervos.org/aggron/address/ckt1qyqvdzp39vsryyw9z4dj5s52n58jvztkyvtqp7jfk4
+Link: https://explorer.nervos.org/aggron/address/ckt1qyqvdzp39vsryyw9z4dj5s52n58jvztkyvtqp7jfk4
 
 
-![CKB-L1](..)
+![CKB-L1](https://raw.githubusercontent.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/master/my-submission/task-1/Workspace%202_209.png)
 
 
-## Deposit some CKBytes on Layer 2
+## 3. A screenshot of the console output immediately after you have successfully submitted a deposit to Layer 2.
 
 
-
-![CKB-L2](..)
+![CKB-L2](https://raw.githubusercontent.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/master/my-submission/task-1/Workspace%202_210.png)
 
 
 ## FAQ
