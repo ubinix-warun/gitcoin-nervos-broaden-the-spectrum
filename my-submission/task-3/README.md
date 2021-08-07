@@ -5,36 +5,111 @@
 
 ## 1. A screenshot of the console output immediately after you have successfully issued a smart contract call.
 
+![CKB-SMARTCONTACT](https://raw.githubusercontent.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/master/my-submission/task-3/Workspace%202_209.png)
+
 
 ## 2. The transaction hash from the console output (in text format).
 
+```
+0x6323a136615d16f004a1b958fa514825b6f418cda64dad8d46f5df7f324daf87
+```
 
 ## 3. The contract address that you called (in text format).
 
+```
+0x155D3a2cb7Ba2a0442FDc4F8F61412CbD1f8c366
+```
 
 ## 4. The ABI for contract you made a call on (in text format).
 
-
+```
+[
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+]
+```
 
 
 ## FAQ
 
-### Require 7z cmd for use snapshot!
+### Require  SimpleStorage!
+
 
 ```
-apt install p7zip-full p7zip-rar
+nvm use v14.17.0
 
-```
+cd src/examples/2-deploy-contract
+yarn install
+yarn compile
 
-### Forgot to use '--chain testnet' param.
+node index.js SimpleStorage.json
 
-```
+Found file: ./build/contracts/SimpleStorage.json
+Deploying contract...
+Transaction hash: 0x8543b9b4dd6fb6ee619bb38033413cd5f17e294d8dd9f5a93fd1d95ce2195632
+Deployed contract address: 0x155D3a2cb7Ba2a0442FDc4F8F61412CbD1f8c366
 
-2021-08-06 17:27:43.833 +00:00 main INFO sentry  sentry is disabled
-2021-08-06 17:27:43.833 +00:00 main INFO ckb_bin::helper  raise_fd_limit newly-increased limit: 1048576
-2021-08-06 17:27:43.999 +00:00 main INFO ckb_bin::subcommand::run  ckb version: 0.43.1 (15427e0 2021-07-16)
-2021-08-06 17:27:43.999 +00:00 main INFO ckb_launcher  Miner is disabled, edit ckb.toml to enable it
-init_snapshot Spec(GenesisMismatch(expected: Byte32(0x92b197aa1fba0f63633922c61c92375c9c074a93e85963554f5499fe1450d0e5), actual: Byte32(0x10639e0895502b5688a6be8cf69460d76541bfa4821629d86d62ba0aae3f9606)))
-
+[
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+]
 
 ```

@@ -10,9 +10,41 @@ const { PolyjuiceHttpProvider, PolyjuiceAccounts } = require("@polyjuice-provide
  * - YOUR_WRITE_FUNCTION_NAME method name
  */
 
-const ACCOUNT_PRIVATE_KEY = '<YOUR_ETHEREUM_PRIVATE_KEY>'; // Replace this with your Ethereum private key with funds on Layer 2.
-const CONTRACT_ABI = [<YOUR_CONTRACT_ABI>]; // this should be an Array []
-const CONTRACT_ADDRESS = '<YOUR_CONTRACT_ADDRESS>';
+const ACCOUNT_PRIVATE_KEY = '...'; // Replace this with your Ethereum private key with funds on Layer 2.
+const CONTRACT_ABI = [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]; // this should be an Array []
+const CONTRACT_ADDRESS = '0x155D3a2cb7Ba2a0442FDc4F8F61412CbD1f8c366';
 
 const GODWOKEN_RPC_URL = 'http://godwoken-testnet-web3-rpc.ckbapp.dev';
 const polyjuiceConfig = {
@@ -35,7 +67,7 @@ web3.eth.Contract.setProvider(provider, web3.eth.accounts);
 async function readCall() {
     const contract = new web3.eth.Contract(CONTRACT_ABI, CONTRACT_ADDRESS);
 
-    const callResult = await contract.methods.YOUR_READ_FUNCTION_NAME().call({
+    const callResult = await contract.methods.get().call({
         from: account.address
     });
 
@@ -45,7 +77,11 @@ async function readCall() {
 async function writeCall() {
     const contract = new web3.eth.Contract(CONTRACT_ABI, CONTRACT_ADDRESS);
 
-    const tx = contract.methods.YOUR_WRITE_FUNCTION_NAME().send(
+    const rset = Math.floor(Math.random() * 1000);
+
+    console.log('>> Random: ', rset);
+    
+    const tx = contract.methods.set(rset).send(
         {
             from: account.address,
             to: '0x' + new Array(40).fill(0).join(''),
