@@ -2,7 +2,7 @@ const Web3 = require('web3');
 const { PolyjuiceHttpProvider } = require("@polyjuice-provider/web3");
 const { AddressTranslator } = require('nervos-godwoken-integration');
 
-const ETHEREUM_ADDRESS = '<YOUR_ETHEREUM_ADDRESS>';
+const ETHEREUM_ADDRESS = '0x7fDa18fd4224b81563cab062c7f8D235c39edc58';
 
 const GODWOKEN_RPC_URL = 'http://godwoken-testnet-web3-rpc.ckbapp.dev';
 const polyjuiceConfig = {
