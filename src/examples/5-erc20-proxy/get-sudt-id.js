@@ -1,7 +1,7 @@
 const { Godwoker } = require("@polyjuice-provider/base");
 const { utils } = require("@ckb-lumos/base");
 
-const SUDT_TYPE_ARGS = "<YOUR_SUDT_TYPE_ARGS>";
+const SUDT_TYPE_ARGS = "0xdaf38a441584f5ad8806f1784a30d1d2ae6345126955f9e7ef3bd9d8686eaf7f";
 
 const GODWOKEN_RPC_URL = "http://godwoken-testnet-web3-rpc.ckbapp.dev";
 const polyjuiceConfig = {
