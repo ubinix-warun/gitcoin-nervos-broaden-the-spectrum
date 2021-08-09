@@ -14,8 +14,8 @@
 ## 3. If you deployed any smart contracts as part of this tutorial, please provide the transaction hash of the deployment transaction, the deployed contract address, and the ABI of the deployed smart contract. (Provide all in text format.)
 
 ```
-Deployed contract address: 0x39AE21F50cd4F16B0387098243aA2895Afe4b80d
-Deploy transaction hash: 0x39ee2926eeb3089d1c684b99a2cbfc95fb108451afc194a0ef2329a805317240
+Transaction hash: 0x06c69fc3346e660a19b0770b01d2ecee52ce054b521bf697cd34485280373ab4
+Deployed contract address: 0x9d480c5a083b58D48F28AfBB1Ed8308989F15e6c
 ```
 
 ```
