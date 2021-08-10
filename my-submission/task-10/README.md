@@ -5,7 +5,7 @@
 
 ## 1. A screenshot of the console output immediately after running the "unlock" command.
 
-![CKB-SMARTCONTACT](https://raw.githubusercontent.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/master/my-submission/task-9/Workspace%202_213.png)
+![CKB-SMARTCONTACT](https://raw.githubusercontent.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/master/my-submission/task-10/Workspace%202_213.png)
 
 PS: withdrawal_block_number 15706n { last_finalized_block_number: 5720n } # it's many time to complete!
 
