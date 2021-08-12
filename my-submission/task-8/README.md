@@ -4,13 +4,13 @@
 
 ## 1. A screenshot or video of your EVM application on Layer 2 with Force Bridge support.
 
-![CKB-SMARTCONTACT](https://raw.githubusercontent.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/master/my-submission/task-8/Workspace%202_213.png)
+![CKB-SMARTCONTACT](https://raw.githubusercontent.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/master/my-submission/task-8/Workspace%202_217.png)
 
 
 ## 2. The address of the SUDT-ERC20 Proxy Contract that you deployed (in text format).
 
 ```
-
+0x790e17a78d94f2210D903Abf2EE6E07C0C039D1C
 ```
 
 ## 3. A link to the GitHub repository with your EVM application that integrates Force Bridge support.
