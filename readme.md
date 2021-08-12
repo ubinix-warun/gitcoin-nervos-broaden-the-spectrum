@@ -1,4 +1,4 @@
-# Gitcoin Hackathon Training
+# Nervos - Broaden The Spectrum | Gitcoin Hackathon Training
 
 ## Introduction
 
@@ -10,17 +10,17 @@
 
 ## Gitcoin Tasks
 
-0. [Setup a Local CKB Node and CKB Indexer for the Testnet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/0.setup.node.and.indexer.md)
-1. [Create a Godwoken Account on the EVM Layer 2 Testnet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/1.create.godwoken.account.md)
-2. [Deploy a Simple Ethereum Smart Contract on Polyjuice](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/2.deploy.eth.contract.md)
-3. [Issue a Smart Contract Call to the Deployed Smart Contract](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/3.issue.contract.call.md)
-4. [Issue an SUDT Token on Layer 1 and Deposit it to Layer 2](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/4.issue.sudt.deposit.md)
-5. [Deploy the ERC20 Proxy Contract for the Deposited SUDT](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/5.deploy.erc20.proxy.contract.md)
-6. [Use Force Bridge to Deposit Tokens on Ethereum to Polyjuice](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/6.use.force.bridge.to.deposit.md)
-7. [Port an Existing Ethereum dApp to Polyjuice](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/7.port.eth.dapp.md)
-8. [Modify the Ported dApp so it Supports Ethereum Assets via Force Bridge](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/8.modify.dapp.support.force.bridge.md)
-9. [Initiate a Withdrawal From Layer 2 Back to Layer 1](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/9.withdraw.md)
-10. [Complete Withdrawal Process by Unlocking the Funds](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/10.unlock.md)
+0. [Setup a Local CKB Node and CKB Indexer for the Testnet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/0.setup.node.and.indexer.md) [SUBMISSION](https://github.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/blob/master/my-submission/task-0/README.md)
+1. [Create a Godwoken Account on the EVM Layer 2 Testnet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/1.create.godwoken.account.md) [SUBMISSION](https://github.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/blob/master/my-submission/task-1/README.md)
+2. [Deploy a Simple Ethereum Smart Contract on Polyjuice](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/2.deploy.eth.contract.md) [SUBMISSION](https://github.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/blob/master/my-submission/task-2/README.md)
+3. [Issue a Smart Contract Call to the Deployed Smart Contract](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/3.issue.contract.call.md) [SUBMISSION](https://github.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/blob/master/my-submission/task-3/README.md)
+4. [Issue an SUDT Token on Layer 1 and Deposit it to Layer 2](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/4.issue.sudt.deposit.md) [SUBMISSION](https://github.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/blob/master/my-submission/task-4/README.md)
+5. [Deploy the ERC20 Proxy Contract for the Deposited SUDT](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/5.deploy.erc20.proxy.contract.md) [SUBMISSION](https://github.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/blob/master/my-submission/task-5/README.md)
+6. [Use Force Bridge to Deposit Tokens on Ethereum to Polyjuice](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/6.use.force.bridge.to.deposit.md) [SUBMISSION](https://github.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/blob/master/my-submission/task-6/README.md)
+7. [Port an Existing Ethereum dApp to Polyjuice](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/7.port.eth.dapp.md) [SUBMISSION](https://github.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/blob/master/my-submission/task-7/README.md)
+8. [Modify the Ported dApp so it Supports Ethereum Assets via Force Bridge](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/8.modify.dapp.support.force.bridge.md) [SUBMISSION](https://github.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/blob/master/my-submission/task-8/README.md)
+9. [Initiate a Withdrawal From Layer 2 Back to Layer 1](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/9.withdraw.md) [SUBMISSION](https://github.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/blob/master/my-submission/task-9/README.md)
+10. [Complete Withdrawal Process by Unlocking the Funds](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/10.unlock.md) [SUBMISSION](https://github.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/blob/master/my-submission/task-10/README.md)
 
 ## Gitcoin Links
 
