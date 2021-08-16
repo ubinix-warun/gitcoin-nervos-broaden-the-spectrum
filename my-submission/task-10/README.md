@@ -9,6 +9,8 @@
 
 * PS: withdrawal_block_number 15706n { last_finalized_block_number: 5720n } 
 * 2021/08/14: withdrawal_block_number 15706n { last_finalized_block_number: 11591n } 
+* 2021/08/16: withdrawal_block_number 15706n { last_finalized_block_number: 14791n }
+
 * It's many time to complete! (3D+)
 
 ## 2. The Ethereum address that you've used for your Layer 2 account (in text format).
