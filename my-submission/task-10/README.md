@@ -11,6 +11,27 @@
 * 2021/08/14: withdrawal_block_number 15706n { last_finalized_block_number: 11591n } 
 * 2021/08/16: withdrawal_block_number 15706n { last_finalized_block_number: 14791n }
 
+```
+withdrawal_block_number 15721n { last_finalized_block_number: 16606n }
+[INFO] found 4 withdrawal cells, only process first one
+withdrawal_witness: 0x0000000004000000
+txHash: 0x53cf8cc9f685b539cbc1b6d3e29fbf558c0a65bb12280c66d19b23916b6d9c8c
+current tx status: pending, ... waiting for 0 seconds pending
+current tx status: pending, ... waiting for 1 seconds pending
+current tx status: pending, ... waiting for 2 seconds pending
+current tx status: pending, ... waiting for 3 seconds pending
+current tx status: pending, ... waiting for 4 seconds pending
+current tx status: pending, ... waiting for 5 seconds pending
+current tx status: pending, ... waiting for 6 seconds pending
+current tx status: pending, ... waiting for 7 seconds pending
+current tx status: pending, ... waiting for 8 seconds pending
+current tx status: proposed, ... waiting for 9 seconds proposed
+current tx status: proposed, ... waiting for 10 seconds proposed
+current tx status: proposed, ... waiting for 11 seconds proposed
+current tx status: proposed, ... waiting for 12 seconds proposed
+
+```
+
 * It's many time to complete! (3D+)
 
 ## 2. The Ethereum address that you've used for your Layer 2 account (in text format).
