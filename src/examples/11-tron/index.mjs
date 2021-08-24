@@ -4,10 +4,42 @@ import { PolyjuiceHttpProvider } from "@polyjuice-provider/web3";
 import { POLYJUICE_CONFIG } from "./config.mjs";
 import { sendTronTransaction } from "./helpers.mjs";
 
-const ACCOUNT_PRIVATE_KEY = '<YOUR_TRON_PRIVATE_KEY>'; // Replace this with your Tron private key with funds on Layer 2.
-const CONTRACT_ABI = [<YOUR_CONTRACT_ABI>]; // this should be an Array []
-const CONTRACT_ADDRESS = '<YOUR_CONTRACT_ADDRESS>';
-const TRON_ADDRESS = '<YOUR_TRON_ADDRESS>';
+const ACCOUNT_PRIVATE_KEY = '...'; // Replace this with your Tron private key with funds on Layer 2.
+const CONTRACT_ABI = [
+  {
+    "inputs": [],
+    "stateMutability": "payable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "x",
+        "type": "uint256"
+      }
+    ],
+    "name": "set",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "get",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]; // this should be an Array []
+const CONTRACT_ADDRESS = '0x155D3a2cb7Ba2a0442FDc4F8F61412CbD1f8c366';
+const TRON_ADDRESS = 'TMqo72Ej8YGJCtAqnJrHiPbB3vAinM2SL2';
 
 const provider = new PolyjuiceHttpProvider(
   POLYJUICE_CONFIG.web3Url,
@@ -19,7 +51,7 @@ const web3 = new Web3(provider);
 async function readCall() {
   const contract = new web3.eth.Contract(CONTRACT_ABI, CONTRACT_ADDRESS);
 
-  const callResult = await contract.methods.<YOUR_READ_FUNCTION_NAME>().call();
+  const callResult = await contract.methods.get().call();
 
   console.log(`Read call result: ${callResult}`);
 }
@@ -27,7 +59,11 @@ async function readCall() {
 async function writeCall() {
   const contract = new web3.eth.Contract(CONTRACT_ABI, CONTRACT_ADDRESS);
 
-  const callData = contract.methods.<YOUR_WRITE_FUNCTION_NAME>().encodeABI();
+  const rset = Math.floor(Math.random() * 1000);
+
+  console.log('>> Random: ', rset);
+
+  const callData = contract.methods.set(rset).encodeABI();
 
   const txHash = await sendTronTransaction(
     { address: TRON_ADDRESS, privateKey: ACCOUNT_PRIVATE_KEY },
