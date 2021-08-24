@@ -19,7 +19,7 @@ Link: https://explorer.nervos.org/aggron/address/ckt1qyqvdzp39vsryyw9z4dj5s52n58
 
 ## 4. A screenshot of the console output immediately after you have successfully issued a smart contract calls on Layer 2.
 
-![CKB-SMARTCONTACT](https://raw.githubusercontent.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/master/my-submission/task-2/Workspace%202_228.png)
+![CKB-SMARTCONTACT](https://raw.githubusercontent.com/ubinix-warun/gitcoin-nervos-broaden-the-spectrum/master/my-submission/task-11/Workspace%202_228.png)
 
 
 ## 5. The transaction hash of the "Contract call" from the console output (in text format).
